@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario simple</title>
+</head>
+<body>
+    <h2>Introduce tus datos:</h2>
+    <form method="POST">
+        Location: <input type="text" name="location" required><br><br>
+        Cities: <input type="text" name="cities" required><br><br>
+        Date: <input type="text" name="date_range" required><br><br>
+        Interest: <input type="text" name="interest" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="result">
+        {{ result | safe }}
+    </div>
+</body>
+</html>
