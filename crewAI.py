@@ -4,8 +4,7 @@ from crewai import Agent, Task, Process,Crew
 from openai import OpenAI
 from langchain_openai import ChatOpenAI
 
-load_dotenv()  # Carga las variables desde el archivo .env
-
+#load_dotenv()  # Carga las variables desde el archivo .env
 #llmAI = ChatOpenAI(
 #    model = "ollama/llama3:8b",
 #    base_url = "http://localhost:11434/v1",
