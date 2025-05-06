@@ -6,7 +6,7 @@ import markdown
 import os
 import litellm
 
-load_dotenv(override=True)
+load_dotenv()
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
